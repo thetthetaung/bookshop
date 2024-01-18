@@ -1,0 +1,23 @@
+.nav-link{
+    padding:10px 30px;
+    margin:0 50px !important;
+    border-radius: 20px;
+}
+.nav-link:hover, .active:hover{
+    /*background-color: rgb(37, 37, 7) !important;*/
+    color:#fff !important;
+    animation-name: dropdown-frame;
+    animation-duration: 4s;
+    /*transition: .3s ease-in-out;*/
+}
+.dropdown-menu:hover{
+    animation-name: dropdown-frame;
+    animation-duration: 4s;
+}
+a{
+    text-decoration: none;
+}
+@keyframes dropdown-frame {
+    from {background-color: rgb(241, 230, 230);}
+    to {background-color: rgb(9, 9, 1);}
+  }
